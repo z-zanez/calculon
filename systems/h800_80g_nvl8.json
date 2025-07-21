@@ -10,7 +10,7 @@
       ]
     },
     "float16": {
-      "tflops": 1979,
+      "tflops": 990,
       "gflops_efficiency": [
         [128, 0.95],
         [16, 0.9],
@@ -38,7 +38,7 @@
       ]
     },
     "float16": {
-      "tflops": 120,
+      "tflops": 237,
       "gflops_efficiency": [
         [16, 0.95],
         [1, 0.5],
@@ -74,7 +74,7 @@
       [0, 0.3]
     ]
   },
-  "processing_mode": "no_overlap",
+  "processing_mode": "roofline",
   "networks": [
     {
       "bandwidth": 200,

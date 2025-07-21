@@ -8,11 +8,28 @@
         [1, 0.6],
         [0, 0.1]
       ]
+    },
+    "float16": {
+      "tflops": 312,
+      "gflops_efficiency": [
+        [128, 0.95],
+        [16, 0.9],
+        [1, 0.6],
+        [0, 0.1]
+      ]
     }
   },
   "vector": {
     "float32": {
       "tflops": 19.5,
+      "gflops_efficiency": [
+        [16, 0.95],
+        [1, 0.5],
+        [0, 0.1]
+      ]
+    },
+    "float16": {
+      "tflops": 78,
       "gflops_efficiency": [
         [16, 0.95],
         [1, 0.5],
