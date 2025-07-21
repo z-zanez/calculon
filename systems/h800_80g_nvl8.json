@@ -74,7 +74,7 @@
       [0, 0.3]
     ]
   },
-  "processing_mode": "roofline",
+  "processing_mode": "no_overlap",
   "networks": [
     {
       "bandwidth": 200,
